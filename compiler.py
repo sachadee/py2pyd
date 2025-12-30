@@ -77,7 +77,7 @@ def convert(py_file=None):
             output_file = compiled_lib.split(".")[0]+"."+compiled_lib.split(".")[-1]
             os.rename(compiled_lib, output_file)
             print(f"Successfully created {output_file}")
-        return output_file
+            return output_file
     except Exception as e:
         print(f"Compilation error: {e}")
         return None
@@ -88,3 +88,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
