@@ -10,9 +10,8 @@ pip install py2pyd
 
 ```
 **Requierements:**
-
-Cython 
-setuptools
+ `Cython`
+ `setuptools`
 
 **Usage:**
 
